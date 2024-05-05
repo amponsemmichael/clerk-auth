@@ -24,7 +24,9 @@ export default function RootLayout({
               <UserButton />
             </SignedIn>
           </header>
-          <main>{children}</main>
+          <main className="flex min-h-screen w-full items-center justify-center">
+            {children}
+          </main>
         </body>
       </html>
     </ClerkProvider>
